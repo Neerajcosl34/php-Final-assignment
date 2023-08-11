@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes App</title>
+</head>
+<body>
+    <h1>Add Note</h1>
+    <form action="insert.php" method="post">
+        Date: <input type="date" name="date"><br>
+        Note: <textarea name="note"></textarea><br>
+        <input type="submit" value="Add Note">
+    </form>
+
+    <h1>Notes List</h1>
+    <form action="index.php" method="get">
+        Filter by Date: <input type="date" name="filter_date">
+        <input type="submit" value="Filter">
+    </form>
+</body>
+</html>
